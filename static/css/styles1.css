@@ -102,12 +102,13 @@ body{
 .member-role{
     font-size:18px;
     font-weight:500;
-    color:#fbfbff !important;
+    color:black!important;
 
 }
 .member-name{
     font-size:28px;
     font-weight:500;
+    color:rgb(84, 11, 57)
 }
 .card-text{
     text-align:center;
