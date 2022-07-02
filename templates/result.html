@@ -1,0 +1,13 @@
+{% extends  'basepagetemplate.html' %}
+{% block body_block %}
+    <div style = "background-image: url('/static/images/about.webp'); height:100vh; " >
+        <div class="container py-2 mx-auto my-50 h-10">
+            <div class="row">
+                <div class="col-sm py-2 py-md-3"> 
+                    <div class="card card-body" style="justify-content:center; margin-top: 19rem; margin-left:7rem;">
+                        <h1 class = "text-center"><b>GDP ==<i>{{ prediction }}</i> </b></h1>
+                    </div>
+                </div>
+            </div>
+    </div>
+{% endblock %}

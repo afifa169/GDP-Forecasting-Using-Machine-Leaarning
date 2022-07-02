@@ -1,0 +1,117 @@
+{% extends 'basepagetemplate.html' %}
+{% block body_block %}
+<div class = "contact-header d-flex flex-column justify-content-center">
+    <div class="text-center text-white"></div>
+</div>
+
+<div class="container mt-lg-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="title text-center mt-4">
+                Have any queries?
+            </div>
+            <div class="overview p-3 text-center ">
+                looking forward to your queries, comments, ideas or any other input related to your visit at our site.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- contact form-->
+<div class = "container-fluid mt-5 mb-3 p-5 team-container-brief ">
+    <div class="row">
+        <div class = "col-12 col-lg-6 pl-lg-5 d-flex flex-column justify-content-center">
+            <div class="text-center text-lg-right"><img src="/static/images/contact2.jpg" class ="team-img "></div>
+        </div>
+        <div class=" col-12 col-lg-6 pr-lg-3">
+            <div class="title ">
+                How we may help you?
+            </div>
+            <div class="overview p-3 " >
+                <div class = "container">
+                    <form action="https://formsubmit.co/32c94aa54757b7d5cab97696a7397af8" method="POST" id="contact-form" role="form">
+
+                            <div class="row pb-3">
+                                <div class="col-md-6">
+                                    
+                                            
+                                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                            
+                                        
+                                    </div>
+                                    <div class="col-md-6">
+                                        
+                                            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                                                            
+                                    </div>
+                                </div>
+                                <div class="row pb-3">
+                                    <div class="col-md-6">
+                                        
+                                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                            
+                            
+                                    </div>
+                                    <div class="col-md-6">
+                                       
+                                            <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                                                <option value="" selected disabled>--Select Your Cocern--</option>
+                                                <option >Query on ML algorithm</option>
+                                                <option >Query on Deployment</option>
+                                                <option >Query on  Predicting new Values</option>
+                                                <option >Other</option>
+                                            </select>
+                                            
+                                       
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        
+                                            <textarea id="form_message" name="message" class="form-control" placeholder="Write your message here." rows="4" required="required" data-error="Please, leave us a message."></textarea
+                                                >
+                                        
+                
+                                        </div>
+                
+                
+                                    <div class="col-12 text-center">
+                                        
+                                        <input type="submit" class="btn btn-info btn-send  pt-2 mt-3" value="Send Message" >
+                                    
+                                </div>
+                          
+                                </div>
+                
+                
+                        </div>
+                    </form>
+                </div>
+            </div>   
+        </div>
+    </div>
+
+</div>
+<!-- end of contact form-->
+
+<div class="container mt-5 mb-5">
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="title">
+                We architect a custom set of technologies
+            </div>
+            <div class="overview pt-3 pb-3 ">
+                Organizational priorities change over time and when they do we are available to work with your team to adapt the products we build to changing needs
+            </div>
+
+        </div>
+        <div class="col-lg-4 d-flex flex-column justify-content-center">
+            <div class="ml-lg-4"><button type="button" class="btn btn-light">
+                <a href="/project">Our Work ..</a></button></div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock %}

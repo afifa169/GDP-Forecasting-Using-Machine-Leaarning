@@ -1,0 +1,141 @@
+{% extends 'basepagetemplate.html' %}
+{% block body_block %}
+<!-- Header section -->
+<div class = "welcome-header d-flex flex-column justify-content-center">
+    <div class="text-center text-white"></div>
+</div>
+<!-- end of header section -->
+
+<!-- Project Overview section -->
+<div class = "container">
+    <div class ="row">
+        <div class="col-12 text-center">
+            <div class="title pt-4 mt-4" >
+                Predicting GDP with Linear Regression 
+            </div>
+            <div class="overview p-3" >
+                We’ll be using Machine Learning to predict GDP of a country, based on information about the country such as  Population, Net migration,Area (sq. mi.), Birthrate etc.
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of header section -->
+
+
+<!-- team members brief-->
+<div class = "container-fluid mt-5 p-5 team-container-brief">
+    <div class="row">
+        <div class = "col-12 col-lg-6 pl-lg-5">
+            <div class="text-center text-lg-right"><img src="/static/images/team.jpg" class ="team-img "></div>
+        </div>
+        <div class=" col-12 col-lg-6 pr-lg-3">
+            <div class="title ">
+                We see the opportunity & challenges to approach digital products as experiences
+            </div>
+            <div class="overview p-3 " >
+                Our dedicated team of members
+                <div class = "d-flex flex-row justify-content-between pt-3">
+                    <div>
+                        <li>Shaik Afifa</li>
+                    </div>
+                    <div>
+                        <li>Shaik Ummesalma</li>
+                    </div>
+                </div>
+                <div class = "d-flex flex-row justify-content-between pt-3">
+                    <div>
+                        <li>Shaik Abeeda</li>
+                    </div>
+                    <div>
+                        <li>Shaik Tahaseen</li>
+                    </div>
+                </div>
+            </div>
+            <div class="team-more-button text-center">
+                <button type="button" class="btn btn-light">
+                    <a href="/about">More Details..</a></button>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<!-- end of team members-->
+
+<!-- Tools section -->
+
+<div class = "container">
+    <div class ="row mt-4">
+        <div class="col-12 text-center">
+            <div class="title pt-4" >
+                Tools and Technologies used
+            </div>
+            <div class="overview p-3" >
+                The project s implemented using the python language, the following modules and frameworks are used in developing the project.
+            </div>
+        </div>
+    </div>
+    <div class = "row mt-4">
+        <div class = "col-12 col-lg-4 col-md-2">
+            <div class="card mb-3 text-center">
+                <img src="/static/images/numpy2.png" class="tool-image">
+                <div class="card-body">
+                  <p class="card-text">NumPy is a general-purpose array-processing package. It provides a high-performance multidimensional array object, and tools for working with these arrays. It is the fundamental package for scientific computing with Python. It is open-source software.</p>
+                </div>
+              </div>
+        </div>
+        <div class = "col-12 col-lg-4 col-md-2">
+            <div class="card mb-3 text-center">
+                <img src="/static/images/bootstrap1.png" class="tool-image">
+                <div class="card-body">
+                  <p class="card-text">Bootstrap is a free and open-source tool collection for creating responsive websites and web applications. It is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first websites. It solves many problems which we had once, one of which is the cross-browser compatibility issue.</p>
+                </div>
+              </div>
+        </div>
+        
+        <div class = "col-12 col-lg-4 col-md-2">
+            <div class="card mb-3 text-center">
+                <img src="/static/images/matplotlibpng.png" class="tool-image">
+                <div class="card-body">
+                  <p class="card-text">Matplotlib is one of the most popular Python packages used for data visualization. It is a cross-platform library for making 2D plots from data in arrays. It provides an object-oriented API that helps in embedding plots in applications using Python GUI toolkits such as PyQt, WxPythonotTkinter.</p>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class = "row mt-4">
+        <div class = "col-12 col-lg-4 col-md-2">
+            <div class="card mb-3 text-center">
+                <img src="/static/images/Scikit_learn_logo_small.png" class="tool-image">
+                <div class="card-body">
+                  <p class="card-text">Scikit-learn (Sklearn) is the most useful and robust library for machine learning in Python. It provides a selection of efficient tools for machine learning and statistical modeling including classification, regression, clustering and dimensionality reduction via a consistence interface in Python. This library, which is largely written in Python, is built upon NumPy, SciPy and Matplotlib.</p>
+                </div>
+              </div>
+        </div>
+        <div class = "col-12 col-lg-4 col-md-2">
+            <div class="card mb-3 text-center">
+                <img src="/static/images/flask.png" class="tool-image">
+                <div class="card-body">
+                  <p class="card-text">Flask is a web application framework written in Python. Armin Ronacher, who leads an international group of Python enthusiasts named Pocco, develops it. Flask is based on Werkzeug WSGI toolkit and Jinja2 template engine. Both are Pocco projects.  For example, ‘/’ URL renders a web page (student.html) which has a form. </p>
+                </div>
+              </div>
+        </div>
+        <div class = "col-12 col-lg-4 col-md-2">
+            <div class="card mb-3 text-center">
+                <img src="/static/images/pandas.png" class="tool-image">
+                <div class="card-body">
+                  <p class="card-text">Pandas is an open-source, BSD-licensed Python library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language. Python with Pandas is used in a wide range of fields including academic and commercial domains including finance, economics, Statistics, analytics, etc.</p>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 text-center pb-5">
+            <button type="button" class="btn btn-light" >
+                <a href="/project">More Details..</a></button>
+        </div>
+    </div>
+</div>
+<!-- end of tools section -->
+
+
+{% endblock %}

@@ -1,0 +1,272 @@
+{% extends  'basepagetemplate.html' %}
+{% block body_block %}
+<div class="formbg">
+    <form method="post" action="/validate" class="form">
+        <div class = "col-12 col-lg-6 pl-lg-5 d-flex flex-column justify-content-center">
+            <div class="form-group">
+                <label for="Population"><b>Population</b></label>
+                <input
+                    type="number"
+                    class="form-control"
+                    id="Population"
+                    name="population"
+                    placeholder="Enter the value (example:50)"
+                    style="font-weight: bold"
+                    required
+                />
+            </div>
+            <div class="form-group">
+                <label for="Area"><b>Area (sq. mi.) </b></label>
+                <input
+                    type="number"
+                    class="form-control"
+                    id="Area"
+                    name="area"
+                    placeholder="Enter the value (example:50)"
+                    style="font-weight: bold"
+                    required
+                />
+            </div>
+
+            <div class="form-group">
+                <label for="PopDensity" ><b>Pop. Density (per sq. mi.)</b></label>
+                <input
+                    type="number"
+                    step="0.01"
+                    class="form-control"
+                    id="PopDensity"
+                    name="popdensity"
+                    placeholder="Enter the value (example:50)"
+                    style="font-weight: bold"
+                    required
+                />
+            </div>
+            <div class="form-group">
+                <label for="Coastline"><b>Coastline (coast/area ratio) </b></label>
+                <input
+                    type="number"
+                    step="0.01"
+                    class="form-control"
+                    id="Coastline"
+                    name="coastline"
+                    placeholder="Enter the value"
+                    style="font-weight: bold"
+                    required
+                />
+            </div>
+            <div class="form-group">
+                <label for="NetMigration"><b>Net migration </b></label>
+                <input
+                    type="number"
+                    step="0.01"
+                    class="form-control"
+                    id="NetMigration"
+                    name="netmigration"
+                    placeholder="Enter the value"
+                    style="font-weight: bold"
+                    required
+                />
+            </div>
+            <div class="form-group">
+                    <label for="Infant"><b>Infant mortality (per 1000 births)</b></label>
+                    <input
+                    type="number"
+                    step="0.01"
+                    class="form-control"
+                    id="Infant"
+                    name="infant"
+                    placeholder="Enter the value"
+                    style="font-weight: bold"
+                    required
+                    />
+            </div>
+            <div class="form-group">
+                    <label for="Literacy"><b>Literacy (%)  </b></label>
+                    <input
+                    type="number"
+                    step="0.01"
+                    class="form-control"
+                    id="Literacy"
+                    name="literacy"
+                    placeholder="Enter the value"
+                    style="font-weight: bold"
+                    required
+                    />
+            </div>
+            <div class="form-group">
+                <label for="Phones"><b>Phones (per 1000)  </b></label>
+                <input
+                type="number"
+                step="0.01"
+                class="form-control"
+                id="Phones"
+                name="phones"
+                placeholder="Enter the value"
+                style="font-weight: bold"
+                required
+                />
+            </div>
+            <div class="form-group">
+                <label for="Arable"><b>Arable (%) </b></label>
+                <input
+                type="number"
+                step="0.01"
+                class="form-control"
+                id="Arable"
+                name="arables"
+                placeholder="Enter the value"
+                style="font-weight: bold"
+                required
+                />
+            </div>
+        </div>
+        <div class=" col-12 col-lg-6 pr-lg-3">
+            <div class="form-group">
+                <label for="Crops"><b>Crops (%) </b></label>
+                <input
+                type="number"
+                step="0.01"
+                class="form-control"
+                id="Crops"
+                name="crops"
+                placeholder="Enter the value"
+                style="font-weight: bold"
+                required
+                />
+            </div>
+            <div class="form-group">
+                <label for="Other"><b>Other (%)</b></label>
+                <input
+                type="number"
+                step="0.01"
+                class="form-control"
+                id="Other"
+                name="other"
+                placeholder="Enter the value"
+                style="font-weight: bold"
+                required
+                />
+            </div>
+            <div class="form-group">
+                <label for="Climate"><b>Climate </b></label>
+                <input
+                type="number"
+                step="0.01"
+                class="form-control"
+                id="Climate"
+                name="climate"
+                placeholder="Enter the value"
+                style="font-weight: bold"
+                required
+                />
+            </div>
+        
+            <div class="form-group">
+                <label for="Birthrate"><b>Birthrate</b></label>
+                <input
+                type="number"
+                step="0.01"
+                class="form-control"
+                id="Birthrate"
+                name="birthrate"
+                placeholder="Enter the value"
+                style="font-weight: bold"
+                required
+                />
+            </div>
+            <div class="form-group">
+                <label for="Deathrate"><b>Deathrate</b></label>
+                <input
+                type="number"
+                step="0.01"
+                class="form-control"
+                id="Deathrate"
+                name="deathrate"
+                placeholder="Enter the value"
+                style="font-weight: bold"
+                required
+                />
+            </div>
+            <div class="form-group">
+                <label for="Agriculture"><b>Agriculture </b></label>
+                <input
+                type="number"
+                step="0.01"
+                class="form-control"
+                id="Agriculture"
+                name="agriculture"
+                placeholder="Enter the value"
+                style="font-weight: bold"
+                required
+                />
+            </div>
+            <div class="form-group">
+                <label for="Industry"><b>Industry</b></label>
+                <input
+                type="number"
+                step="0.01"
+                class="form-control"
+                id="Industry"
+                name="industry"
+                placeholder="Enter the value"
+                style="font-weight: bold"
+                required
+                />
+            </div>
+            <div class="form-group">
+                <label for="Service"><b>Service </b></label>
+                <input
+                type="number"
+                step="0.01"
+                class="form-control"
+                id="Service"
+                name="service"
+                placeholder="Enter the value"
+                style="font-weight: bold"
+                required
+                />
+            </div>
+            <div class="form-group">
+                <label for="Regional_label"><b>Regional_label</b></label>
+                <input
+                type="number"
+                
+                class="form-control"
+                id="Regional_label"
+                name="regional_label"
+                placeholder="Enter the value"
+                style="font-weight: bold"
+                required
+                />
+            </div>
+            <div class="form-group">
+                <label for="Climate_label"><b>Climate_label</b></label>
+                <input
+                type="number"
+                
+                class="form-control"
+                id="Climate_label"
+                name="climate_label"
+                placeholder="Enter the value"
+                style="font-weight: bold"
+                required
+                />
+            </div>
+        </div>
+        
+            
+        <div class="d-flex justify-content-center">
+            <button
+                type="submit"
+                class="btn btn-info"
+                style="color: black; font-weight: bold; width: 130px; height:50px; border-radius:12px; font-size: 21px;">
+                Predict
+            </button>
+        </div>
+    </form>
+</div>
+
+
+
+<!-- Form section -->
+{% endblock %}

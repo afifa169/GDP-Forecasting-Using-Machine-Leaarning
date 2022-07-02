@@ -1,0 +1,114 @@
+body{
+    font-family: 'Syne' !important;
+}
+
+.links{
+    color: rgb(72, 31, 222);
+}
+.about-header{
+    height:60vh;
+    font-size:3.5em !important;
+    background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.363),  rgba(0, 0, 0, 0.5)), url('/static/images/about2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.welcome-header{
+    height:60vh;
+    font-size:3.5em !important;
+    background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.363),  rgba(0, 0, 0, 0.5)), url('/static/images/welcome1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.contact-header{
+    height:60vh;
+    font-size:3.5em !important;
+    background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.363),  rgba(0, 0, 0, 0.5)), url('/static/images/contact4.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.project-header{
+    height:60vh;
+    font-size:3.5em !important;
+    background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.363),  rgba(0, 0, 0, 0.5)), url('/static/images/ai2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.nav-text a{
+    font-family: 'Syne';
+    font-size:1.1em !important;
+}
+.logo{
+    width:62px;
+    height:62px;
+}
+.default-bg{
+    background-color: #EFF1F7;
+}
+.my-footer{
+    width:100%;
+    margin:0px;
+    padding:20px;
+    position:absolute;
+    z-index: -1;
+
+}
+.small-logo{
+    width:45px;
+    height:45px;
+}
+
+.title{
+    font-size: 1.6em;
+    font-weight: 600;
+    text-shadow: .5px 0px 0px #ababab;
+    letter-spacing: .05em;
+}
+.overview{
+    font-size: 1.2em;
+    font-weight: 400;
+    letter-spacing: .1em;
+
+}
+.tool-image{
+    padding-top:15px;
+    margin:auto;
+    width:40% !important;
+}
+.team-container{
+    background-color: #DBFBF6;
+    
+}
+
+.member-image{
+    /* width:85%;
+    margin:auto; */
+    /* max-height: 15%;
+    margin-top: 4%;
+    max-width: 31%; */
+    max-height: 239px;
+    min-width: 265px;
+    margin-top: 4%;
+}
+
+
+.team-img{
+    width:80%;
+    border-radius: 2%;
+}
+.team-container-brief{
+    background-image: linear-gradient( rgba(234, 252, 250, 0.3), rgba(234, 252, 250, 0.815));
+}
+.member-role{
+    font-size:18px;
+    font-weight:500;
+    color:#fbfbff !important;
+
+}
+.member-name{
+    font-size:28px;
+    font-weight:500;
+}
+.card-text{
+    text-align:center;
+}
